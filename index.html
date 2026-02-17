@@ -1,61 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
 
-			<title>Benito Aban Tabucal III</title>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            max-width: 800px; /* or any value you deem fit */
+            margin: 0 auto;
+        }
 
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img.profile-pic {
+            width: 200px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-			<header>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-						<h1>Benito Aban Tabucal III</h1>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile_picture.jpg" alt="Your Name's Profile Picture" class="profile-pic">
+            <p>
+                A brief paragraph about yourself, your background, skills, and experience.
+            </p>
+        </section>
 
-						<nav>
-  								<a href="/html/">HTML</a> |
- 				 				<a href="/css/">CSS</a> |
-  								<a href="/js/">JavaScript</a> |
-  								<a href="/python/">Python</a>
-						</nav>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1</a>: Short description of the project.</li>
+                <li><a href="#">Project 2</a>: Short description of another project.</li>
+                <!-- Add more projects as list items -->
+            </ul>
+        </section>
 
-			</header>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                How to reach you: Email, LinkedIn, GitHub, etc.
+            </p>
+        </section>
 
-			<img src="942f3081-f5f9-4036-85c1-3b725a47bf5d.jpg"width="220" height="220">
-
-			<p><strong>I'm Benito Tabucal III</strong>, I'm studying <a href=https://LearnTechnologyToday.net/" target="_blank">Learn Technology Today</a> and i learn a lot of my coach  <strong>Michael 					Tan</strong>,my course in learn computer today is full stack  development    after my 4months of  study and after 3 moths of  OJT  i   get my certificate and now I'm official full stack development </p>
-			
-
-    						<h2>Here are my sample project:</h2>
-						<ul>
-								<li>E-Commerce Platform</li>
-								<li>Real-Time Chat Application</li>
-								<li>AI-Powered SaaS Application</li>
-								<li>Project Management Tool:</li>
-								</ul>
-								<h2>My Skills:</h2>
-								<ul>
-								<li>CSS</li>
-		 						<li>SPA</li>
-								<li>Python</li>
-								<li>NodeJS</li>
-								<li>PHP</li>
-								<li>MySQL</li>
-								<li>MOngoDB</li>
-								<li>Hybrid Apps IOS/Android</li>
-								</ul>
-			<			h2>pls contact me:</h2>
-			
-		<footer>
-
-						<p><a href=https://www.facebook.com/benito.III1989" target="_blank">facebook</a></p>
-						<p><a href="tabucalbenito@gmail.com"target="_blank">✉</a></p>
-						<p><a href="tel:+639774770273"target="_blank">☎</a></p>
-
-		</footer>
-			
-		<p>2026</p>
-
+        <footer>
+            <p>© 2023 by Your Name</p>
+        </footer>
+    </div>
 </body>
 
 </html>
